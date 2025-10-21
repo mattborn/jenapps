@@ -2,13 +2,10 @@ const fs = require('fs')
 const path = require('path')
 const { execSync } = require('child_process')
 
-const getRepoName = () =>
-  execSync('git remote get-url origin', { encoding: 'utf8' }).split('/').pop().replace('.git', '').trim()
-
 const srcDir = 'src'
 const buildDir = 'build'
 const isDev = process.argv.includes('--dev')
-const basePath = isDev ? '/' : `/${getRepoName()}/`
+const basePath = '/'
 
 const build = () => {
   fs.rmSync(buildDir, { force: true, recursive: true })
@@ -75,8 +72,10 @@ const build = () => {
 
   processDir(srcDir, buildDir)
 
-  console.log('\n✨ Formatting all files')
-  execSync('npx prettier --write .', { stdio: 'inherit' })
+  if (isDev) {
+    console.log('\n✨ Formatting all files')
+    execSync('npx prettier --write .', { stdio: 'inherit' })
+  }
 
   console.log(`\n🎉 Build complete! ${isDev ? '(dev mode)' : ''}`)
 }
