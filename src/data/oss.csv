@@ -1,0 +1,10 @@
+category,name,command,links,comments
+Terminal,Hyper,brew install --cask hyper,https://hyper.is
+Terminal,Oh My Zsh,sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)",https://ohmyz.sh
+Terminal,OpenCode,npm i -g opencode-ai,https://opencode.ai,Works with local models!
+Omni,Ollama,npm i -g ollama,https://ollama.com
+Video,ffmpeg,brew install ffmpeg,https://ffmpeg.org
+Video,Handbrake,brew install handbrake,https://handbrake.fr
+Video,Shotcut,brew install --cask shotcut,https://www.shotcut.org
+Windows,Rectangle,brew install --cask rectangle,https://rectangleapp.com
+Omni,LM Studio,npm install @lmstudio/sdk,https://lmstudio.ai
