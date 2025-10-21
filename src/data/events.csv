@@ -1,0 +1,20 @@
+date,category,company,titles,links,video,comments
+2025-10-21,Browser,OpenAI,ChatGPT Atlas,https://chatgpt.com/atlas;https://openai.com/index/introducing-chatgpt-atlas/
+2025-10-17,Voice,OpenAI,GPT-4o Transcribe Diarize,https://platform.openai.com/docs/models/gpt-4o-transcribe-diarize
+2025-10-14,Browser,Dendrite,Strawberry,https://strawberrybrowser.com;https://www.producthunt.com/products/strawberry/launches/strawberry-3
+2025-10-07,Computer,Google,Gemini 2.5 Computer Use,https://blog.google/technology/google-deepmind/gemini-computer-use-model/
+2025-10-06,Agent,OpenAI,AgentKit,https://openai.com/agent-platform/
+2025-10-06,Code,OpenAI,Codex,https://openai.com/codex/;https://openai.com/index/codex-now-generally-available/
+2025-10-02,Browser,Perplexity,Comet,https://www.perplexity.ai/comet;https://www.perplexity.ai/hub/blog/comet-is-now-available-to-everyone-worldwide
+2025-09-30,Video,OpenAI,Sora 2,https://openai.com/sora/;https://openai.com/index/sora-2/
+2025-09-29,Code,Anthropic,Claude Code 2.0,https://www.claude.com/product/claude-code;https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously
+2025-09-29,Text,Anthropic,Claude Sonnet 4.5,https://www.anthropic.com/claude/sonnet;https://www.anthropic.com/news/claude-sonnet-4-5
+2025-09-29,Code,Anomaly,OpenCode zen,https://opencode.ai/zen;https://www.producthunt.com/products/opencode/launches/opencode-zen
+2025-08-17,Image,Google,Gemini 2.5 Flash Image;Nano Banana,https://aistudio.google.com/models/gemini-2-5-flash-image;https://developers.googleblog.com/en/introducing-gemini-2-5-flash-image/
+2025-08-07,Text,OpenAI,GPT-5,https://openai.com/gpt-5/;https://openai.com/index/introducing-gpt-5/,,
+2025-07-11,Code,Anomaly,OpenCode,https://opencode.ai;https://www.producthunt.com/products/opencode/launches/opencode
+2025-06-30,Code,Anysphere,Cursor on web and mobile,https://cursor.com/blog/agent-web,https://youtu.be/hHTKtrSO6os,
+2025-05-22,Text,Anthropic,Claude 4,https://www.anthropic.com/news/claude-4
+2025-05-20,Video,Google,Veo 3,https://aistudio.google.com/models/veo-3
+2025-03-25,Text,Google,Gemini 2.5,https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/
+2025-02-24,Code,Anthropic,Claude Code,https://www.anthropic.com/news/claude-3-7-sonnet

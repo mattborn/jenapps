@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+/* Layout */
+.layer {
+  display: flex;
+  justify-content: center;
+  padding: clamp(1.5rem, 3vw, 2rem);
+}
+
+.layer-inset {
+  flex: 1;
+  max-width: 80rem;
+}
+
+.logo {
+  color: var(--color-darkest);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.logo-apps {
+  font-variant: small-caps;
+}
+.logo-jen {
+  font:
+    400 2rem Sacramento,
+    cursive;
+}
+
+section .layer-inset {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+footer .layer-inset {
+  align-items: center;
+  color: var(--color-half);
+  display: flex;
+  justify-content: space-between;
+}
