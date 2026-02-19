@@ -1,4 +1,36 @@
 let eventsData = []
+
+const hideEmptyYears = (container, itemClass) => {
+  container.querySelectorAll('.year-header').forEach(header => {
+    let visible = false
+    let sibling = header.nextElementSibling
+    while (sibling && !sibling.classList.contains('year-header')) {
+      if (sibling.classList.contains(itemClass) && sibling.style.display !== 'none') {
+        visible = true
+        break
+      }
+      sibling = sibling.nextElementSibling
+    }
+    header.style.display = visible ? '' : 'none'
+  })
+}
+const updateEmptyState = () => {
+  const emptyState = document.getElementById('empty-state')
+  if (!emptyState) return
+  const inVideo = document.getElementById('video-view')?.style.display !== 'none'
+  const container = document.getElementById(inVideo ? 'video-view' : 'list-view')
+  const itemClass = inVideo ? 'video-card' : 'event-row'
+  let hasVisible = false
+  for (const child of container?.children ?? []) {
+    if (child.classList.contains('year-header')) break
+    if (child.classList.contains(itemClass) && child.style.display !== 'none') {
+      hasVisible = true
+      break
+    }
+  }
+  emptyState.style.display = hasVisible ? 'none' : ''
+}
+
 const watchedVideos = JSON.parse(localStorage.getItem('jenapps') || '[]')
 
 const toggleWatched = (video, card) => {
@@ -18,6 +50,8 @@ const formatDate = dateStr => {
   const date = new Date(year, month - 1, day)
   return `${date.toLocaleDateString('en-US', { month: 'short' })} ${day}`
 }
+const formatHeaderDate = dateStr =>
+  new Date(`${dateStr}T00:00:00`).toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' })
 
 const createTitle = (titles, link) => {
   const title = document.createElement('div')
@@ -73,6 +107,9 @@ fetch('data/events.csv')
         const [date, category, company, titles, links, video] = row.split(',')
         return { category, company, date, links, titles, video }
       })
+    const lastUpdatedDate = eventsData.reduce((latest, { date }) => (date > latest ? date : latest), '')
+    const lastUpdated = document.getElementById('last-updated')
+    if (lastUpdatedDate && lastUpdated) lastUpdated.textContent = `Last updated ${formatHeaderDate(lastUpdatedDate)}`
     const yearHeader = createYearHeader(new Date(eventsData[0].date).getFullYear())
     const segmentedControl = document.createElement('div')
     segmentedControl.className = 'segmented-control'
@@ -100,6 +137,11 @@ fetch('data/events.csv')
     videoView.id = 'video-view'
     videoView.className = 'video-grid'
     videoView.style.display = 'none'
+    const emptyState = document.createElement('div')
+    emptyState.id = 'empty-state'
+    emptyState.textContent = 'Nothing here yet'
+    emptyState.style.display = 'none'
+    events.appendChild(emptyState)
     events.appendChild(listView)
     events.appendChild(videoView)
     eventsData.forEach(({ category, company, date, links, titles, video }) => {
@@ -161,20 +203,9 @@ document.addEventListener('click', e => {
       el.style.display = show ? '' : 'none'
       // if (show) el.style.opacity = 1
     })
-    document.querySelectorAll('#list-view .year-header').forEach(header => {
-      const nextSibling = header.nextElementSibling
-      let hasVisibleEvents = false
-      let sibling = nextSibling
-      while (sibling && !sibling.classList.contains('year-header')) {
-        if (sibling.classList.contains('event-row') && sibling.style.display !== 'none') {
-          hasVisibleEvents = true
-          break
-        }
-        sibling = sibling.nextElementSibling
-      }
-      header.style.display = hasVisibleEvents ? '' : 'none'
-      // if (hasVisibleEvents) header.style.opacity = 1
-    })
+    hideEmptyYears(document.getElementById('list-view'), 'event-row')
+    hideEmptyYears(document.getElementById('video-view'), 'video-card')
+    updateEmptyState()
     return
   }
   const segment = e.target.closest('.segment')
@@ -202,9 +233,15 @@ document.addEventListener('click', e => {
         },
         { rootMargin: '50%' },
       )
+      let currentVideoYear = null
       eventsData.forEach(({ category, date, titles, video }) => {
         const videoId = getVideoId(video)
         if (videoId) {
+          const year = new Date(date).getFullYear()
+          if (year !== currentVideoYear) {
+            currentVideoYear = year
+            if (videoView.children.length) videoView.appendChild(createYearHeader(year))
+          }
           const videoCard = document.createElement('div')
           videoCard.className = 'video-card'
           videoCard.dataset.category = category
@@ -246,7 +283,9 @@ document.addEventListener('click', e => {
         videoView.querySelectorAll('.video-card').forEach(card => {
           card.style.display = card.dataset.category.toLowerCase() === activeFilter ? '' : 'none'
         })
+        hideEmptyYears(videoView, 'video-card')
       }
     }
+    updateEmptyState()
   }
 })

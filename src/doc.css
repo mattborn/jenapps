@@ -1,5 +1,5 @@
 header .layer-inset {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   gap: 1.5rem;
   justify-content: space-between;
@@ -17,6 +17,14 @@ header nav a {
 
 header nav a:hover {
   color: var(--color-darkest);
+}
+
+#last-updated {
+  color: var(--color-half);
+}
+
+#last-updated:empty {
+  display: none;
 }
 
 .brand {
@@ -41,7 +49,7 @@ header nav a:hover {
 
 .logo-jen {
   font:
-    400 2rem Sacramento,
+    400 3rem Sacramento,
     cursive;
 }
 
@@ -51,7 +59,7 @@ section .layer-inset {
 }
 
 footer .layer-inset {
-  align-items: center;
+  align-items: flex-end;
   color: var(--color-half);
   display: flex;
   justify-content: space-between;

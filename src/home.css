@@ -27,6 +27,7 @@
   display: flex;
   gap: 1rem;
   margin: 1.5rem 0 0.75rem;
+  width: 100%;
 }
 
 .year-text {
@@ -96,11 +97,15 @@
   content: ' ↗';
 }
 
+#empty-state {
+  color: var(--color-half);
+  padding: 1rem 0;
+}
+
 .video-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  margin: 1rem 0;
 }
 
 .video-card {

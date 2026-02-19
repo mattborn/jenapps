@@ -1,4 +1,10 @@
 date,category,company,titles,links,video,comments
+2026-02-25,Computer,Perplexity,Perplexity Computer,https://www.perplexity.ai/hub/blog/introducing-perplexity-computer,https://youtu.be/qOsEYyQuxbU,
+2026-02-19,Text,Google,Gemini 3.1 Pro,https://deepmind.google/models/gemini/pro/,,
+2026-02-18,Music,Google,Lyria 3,https://gemini.google.com/music,https://youtu.be/TD6FPndjhoE,Music Generation
+2026-02-05,Text,Anthropic,Claude Opus 4.6,https://www.anthropic.com/news/claude-opus-4-6,https://youtu.be/dPn3GBI8lII,
+2026-02-05,Code,OpenAI,GPT-5.3 Codex,https://openai.com/index/introducing-gpt-5-3-codex/,,
+2026-02-02,Code,OpenAI,Codex for Mac,https://openai.com/codex/,https://youtu.be/0e-Brv-gS9Q,
 2026-01-27,Agent,Google,Agentic Vision,https://blog.google/innovation-and-ai/technology/developers-tools/agentic-vision-gemini-3-flash/,,
 2026-01-12,Agent,Anthropic,Cowork,https://claude.com/product/cowork,https://youtu.be/UAmKyyZ-b9E,
 2025-12-22,Code,Vercel,AI SDK 6,https://vercel.com/blog/ai-sdk-6,,
