@@ -241,6 +241,12 @@ document.addEventListener('click', e => {
           observer.observe(videoCard)
         }
       })
+      const activeFilter = document.querySelector('#filter-nav a.active')?.href.split('#')[1]
+      if (activeFilter && activeFilter !== 'all') {
+        videoView.querySelectorAll('.video-card').forEach(card => {
+          card.style.display = card.dataset.category.toLowerCase() === activeFilter ? '' : 'none'
+        })
+      }
     }
   }
 })

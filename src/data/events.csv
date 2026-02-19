@@ -1,4 +1,12 @@
 date,category,company,titles,links,video,comments
+2025-12-22,Code,Vercel,AI SDK 6,https://vercel.com/blog/ai-sdk-6,,
+2025-12-19,Code,Amazon,Nova Forge,https://aws.amazon.com/nova/forge/,https://youtu.be/9xkkSUJ1OpM,
+2025-12-17,Text,Google,Gemini 3 Flash,https://blog.google/products-and-platforms/products/gemini/gemini-3-flash/,https://youtu.be/zg_66Q3oSss,
+2025-12-16,Voice,Amazon,Nova 2 Sonic,https://nova.amazon.com/sonic;https://aws.amazon.com/blogs/aws/introducing-amazon-nova-2-sonic-next-generation-speech-to-speech-model-for-conversational-ai/,https://youtu.be/66t9oGdH2u4,Speech-to-speech real-time conversational
+2025-12-16,Text,Amazon,Nova 2 Lite,https://aws.amazon.com/blogs/aws/introducing-amazon-nova-2-lite-a-fast-cost-effective-reasoning-model/,https://youtu.be/HoTV82WHSoU,Deep research
+2025-12-11,Text,OpenAI,GPT-5.2,https://openai.com/index/introducing-gpt-5-2/,,
+2025-12-02,Text,Amazon,Nova 2,https://aws.amazon.com/nova/;https://nova.amazon.com/chat,https://youtu.be/GOtf-A-1Bt0,
+2025-12-02,Computer,Amazon,Nova Act,https://nova.amazon.com/act;https://labs.amazon.science/blog/nova-act,https://youtu.be/JLLapxWmalU,
 2025-11-18,Code,Google,Antigravity,https://antigravity.google;https://blog.google/technology/developers/gemini-3-developers/,https://youtu.be/SVCBA-pBgt0
 2025-11-12,Text,OpenAI,GPT-5.1,https://openai.com/index/gpt-5-1/
 2025-10-29,Code,Anysphere,Cursor 2.0,https://cursor.com/blog/2-0,https://youtu.be/An8IM-kPyms
@@ -36,14 +44,19 @@ date,category,company,titles,links,video,comments
 2025-05-22,Text,Anthropic,Claude 4,https://www.anthropic.com/news/claude-4
 2025-05-20,Video,Google,Flow,https://flow.google;https://blog.google/technology/ai/google-flow-veo-ai-filmmaking-tool/,https://youtu.be/A0VttaLy4sU
 2025-05-20,Video,Google,Veo 3,https://aistudio.google.com/models/veo-3,https://youtu.be/3NxT1kxL1nY
+2025-04-30,Text,Amazon,Nova Premier,https://aws.amazon.com/blogs/aws/amazon-nova-premier-our-most-capable-model-for-complex-tasks-and-teacher-for-model-distillation/,https://youtu.be/bUFKip3qHuM,
 2025-04-22,Browser,Dendrite,Strawberry Browser,https://strawberrybrowser.com;https://www.producthunt.com/products/strawberry/launches/strawberry-2,https://youtu.be/a6_W9gcNWUQ,
 2025-04-16,Code,OpenAI,Codex,https://openai.com/codex/;https://github.com/openai/codex,https://youtu.be/FUq9qRwrDrI
+2025-04-07,Video,Amazon,Nova Reel 1.1,https://nova.amazon.com/videogallery,https://youtu.be/OvuwL0A518A,
 2025-04-01,Music,Suno,Suno v4.5,https://suno.com;https://suno.com/blog/introducing-v4-5
 2025-03-31,Video,Runway,Runway Gen-4,https://runwayml.com;https://runwayml.com/research/introducing-runway-gen-4,https://youtu.be/br9b3-cxTPQ
 2025-03-25,Text,Google,Gemini 2.5,https://aistudio.google.com;https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/,https://youtu.be/qNrQdZF1pLU
 2025-02-27,Text,Microsoft,Copilot for Mac,https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/get-copilot;https://www.theverge.com/news/621114/microsoft-copilot-app-macos-download,https://youtu.be/lvVaezI0KQo
 2025-02-24,Code,Anthropic,Claude Code,https://www.anthropic.com/news/claude-3-7-sonnet,https://youtu.be/AJpK3YTTKZ4,
+2025-01-31,Video,Amazon,Nova Reel,https://nova.amazon.com/videogallery,https://youtu.be/7BMTlC41-n8,Video generation
+2025-01-31,Image,Amazon,Nova Canvas,https://nova.amazon.com/imagegeneration,https://youtu.be/XX2XgHdJ_yM,
 2024-12-11,Text,Google,Gemini 2,https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/
+2024-12-03,Text,Amazon,Nova,https://www.aboutamazon.com/news/aws/amazon-nova-artificial-intelligence-bedrock-aws,,
 2024-11-19,Music,Suno,Suno v4,https://suno.com;https://suno.com/blog/v4
 2024-10-22,Computer,Anthropic,Claude Computer Use,https://www.anthropic.com/news/3-5-models-and-computer-use,https://youtu.be/ODaHJzOyVCQ
 2024-10-22,Video,Runway,Runway Act-One,https://runwayml.com/research/introducing-act-one,https://youtu.be/z3F0ei62Kmk
