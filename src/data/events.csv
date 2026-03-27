@@ -1,4 +1,10 @@
 date,category,company,titles,links,video,comments
+2026-03-27,Browser,Perplexity,Comet for iOS,https://apps.apple.com/us/app/comet-ai-browser-assistant/id6748622471;https://www.perplexity.ai/hub/blog/meet-comet-for-ios,,
+2026-03-17,Text,OpenAI,GPT-5.4 mini + nano,https://chatgpt.com;https://openai.com/index/introducing-gpt-5-4-mini-and-nano/,,
+2026-03-11,Text,Nvidia,Nemotron 3 Super,https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/,,120B open model for agentic AI
+2026-03-10,Text,xAI,Grok 4.20,https://grok.com;https://x.ai/news/grok-4-20,,Exited beta; factuality focus
+2026-03-09,Agent,Microsoft,Copilot Cowork,https://copilot.microsoft.com;https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/,,Built with Anthropic
+2026-03-05,Text,OpenAI,GPT-5.4,https://chatgpt.com;https://openai.com/index/introducing-gpt-5-4/,,1M context; computer use; thinking + pro variants
 2026-02-25,Computer,Perplexity,Perplexity Computer,https://www.perplexity.ai/hub/blog/introducing-perplexity-computer,https://youtu.be/qOsEYyQuxbU,
 2026-02-19,Text,Google,Gemini 3.1 Pro,https://deepmind.google/models/gemini/pro/,,
 2026-02-18,Music,Google,Lyria 3,https://gemini.google.com/music,https://youtu.be/TD6FPndjhoE,Music Generation
@@ -16,6 +22,7 @@ date,category,company,titles,links,video,comments
 2025-12-02,Text,Amazon,Nova 2,https://aws.amazon.com/nova/;https://nova.amazon.com/chat,https://youtu.be/GOtf-A-1Bt0,
 2025-12-02,Computer,Amazon,Nova Act,https://nova.amazon.com/act;https://labs.amazon.science/blog/nova-act,https://youtu.be/JLLapxWmalU,
 2025-11-18,Code,Google,Antigravity,https://antigravity.google;https://blog.google/technology/developers/gemini-3-developers/,https://youtu.be/SVCBA-pBgt0
+2025-11-17,Text,xAI,Grok 4.1,https://x.ai/news/grok-4-1,,
 2025-11-12,Text,OpenAI,GPT-5.1,https://openai.com/index/gpt-5-1/
 2025-10-29,Code,Anysphere,Cursor 2.0,https://cursor.com/blog/2-0,https://youtu.be/An8IM-kPyms
 2025-10-29,Agent,Superhuman,Superhuman Go,https://superhuman.com/products/go-ai-assistant;https://www.theverge.com/news/808472/grammarly-superhuman-ai-rebrand-relaunch,https://youtu.be/PUAzU57wt88,
@@ -44,6 +51,7 @@ date,category,company,titles,links,video,comments
 2025-07-28,Browser,Microsoft,Copilot in Edge,https://aka.ms/copilot-mode;https://blogs.windows.com/msedgedev/2025/10/23/meet-copilot-mode-in-edge-your-ai-browser/,https://youtu.be/CLH8gU--YBU,
 2025-07-25,Video,Runway,Runway Aleph,https://runwayml.com/research/introducing-runway-aleph,https://youtu.be/KUHx-2uz_qI
 2025-07-17,Agent,OpenAI,ChatGPT Agent,https://chatgpt.com/features/agent/;https://openai.com/index/introducing-chatgpt-agent/,https://youtu.be/2wzGS_WUZYQ,
+2025-07-09,Text,xAI,Grok 4,https://x.ai/news/grok-4,,Native tool-calling; Grok 4 Heavy
 2025-07-15,Video,Runway,Runway Act-Two,https://runwayml.com/research/introducing-act-one,https://youtu.be/JW8PHlFD7HM
 2025-07-11,Code,Anomaly,OpenCode,https://opencode.ai;https://www.producthunt.com/products/opencode/launches/opencode
 2025-06-30,Code,Anysphere,Cursor on web and mobile,https://cursor.com/blog/agent-web,https://youtu.be/hHTKtrSO6os,
@@ -56,6 +64,7 @@ date,category,company,titles,links,video,comments
 2025-04-22,Browser,Dendrite,Strawberry Browser,https://strawberrybrowser.com;https://www.producthunt.com/products/strawberry/launches/strawberry-2,https://youtu.be/a6_W9gcNWUQ,
 2025-04-16,Code,OpenAI,Codex,https://openai.com/codex/;https://github.com/openai/codex,https://youtu.be/FUq9qRwrDrI
 2025-04-07,Video,Amazon,Nova Reel 1.1,https://nova.amazon.com/videogallery,https://youtu.be/OvuwL0A518A,
+2025-04-05,Text,Meta,Llama 4,https://ai.meta.com/blog/llama-4-multimodal-intelligence/,,Scout + Maverick; natively multimodal
 2025-04-01,Music,Suno,Suno v4.5,https://suno.com;https://suno.com/blog/introducing-v4-5
 2025-03-31,Video,Runway,Runway Gen-4,https://runwayml.com;https://runwayml.com/research/introducing-runway-gen-4,https://youtu.be/br9b3-cxTPQ
 2025-03-25,Text,Google,Gemini 2.5,https://aistudio.google.com;https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/,https://youtu.be/qNrQdZF1pLU
