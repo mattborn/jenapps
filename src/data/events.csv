@@ -1,4 +1,15 @@
 date,category,company,titles,links,video,comments
+2026-04-23,Text,OpenAI,GPT-5.5,https://chatgpt.com;https://openai.com/index/introducing-gpt-5-5/,https://youtu.be/blGtYq9mL18,
+2026-04-23,Voice,xAI,Grok Voice Think Fast 1.0,https://grok.com;https://x.ai/news/grok-voice-think-fast-1,,25+ languages; $0.05/min
+2026-04-22,Agent,OpenAI,Workspace Agents,https://chatgpt.com;https://openai.com/index/introducing-workspace-agents-in-chatgpt/,,
+2026-04-21,Image,OpenAI,ChatGPT Images 2.0,https://chatgpt.com;https://openai.com/index/introducing-chatgpt-images-2-0/,,
+2026-04-17,Image,Anthropic,Claude Design,https://claude.ai/design;https://www.anthropic.com/news/claude-design-anthropic-labs,https://youtu.be/t_LBECIQQqs,Anthropic Labs
+2026-04-16,Text,Anthropic,Claude Opus 4.7,https://claude.ai;https://www.anthropic.com/news/introducing-claude-opus-4-7,,
+2026-04-16,Code,Vercel,Vercel Workflows,https://vercel.com/workflows;https://vercel.com/blog/a-new-programming-model-for-durable-execution,https://youtu.be/C9ahOihLPVA,
+2026-04-14,Security,OpenAI,GPT-5.4-Cyber,https://openai.com/index/scaling-trusted-access-for-cyber-defense/,,Defensive cybersecurity; vetted access only
+2026-04-07,Security,Anthropic,Claude Mythos Preview,https://www.anthropic.com/glasswing;https://www.anthropic.com/news/project-glasswing,,10T params; cybersecurity; Project Glasswing; not publicly available
+2026-04-03,Security,Microsoft,Agent Governance Toolkit,https://github.com/microsoft/agent-governance-toolkit;https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/,,Open source; MIT license
+2026-04-02,Code,Anysphere,Cursor 3,https://cursor.com;https://cursor.com/blog,,Agent-first workspace
 2026-03-27,Browser,Perplexity,Comet for iOS,https://apps.apple.com/us/app/comet-ai-browser-assistant/id6748622471;https://www.perplexity.ai/hub/blog/meet-comet-for-ios,,
 2026-03-17,Text,OpenAI,GPT-5.4 mini + nano,https://chatgpt.com;https://openai.com/index/introducing-gpt-5-4-mini-and-nano/,,
 2026-03-11,Text,Nvidia,Nemotron 3 Super,https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/,,120B open model for agentic AI
