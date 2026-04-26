@@ -4,9 +4,11 @@ date,category,company,titles,links,video,comments
 2026-04-22,Agent,OpenAI,Workspace Agents,https://chatgpt.com;https://openai.com/index/introducing-workspace-agents-in-chatgpt/,,
 2026-04-21,Image,OpenAI,ChatGPT Images 2.0,https://chatgpt.com;https://openai.com/index/introducing-chatgpt-images-2-0/,,
 2026-04-17,Image,Anthropic,Claude Design,https://claude.ai/design;https://www.anthropic.com/news/claude-design-anthropic-labs,https://youtu.be/t_LBECIQQqs,Anthropic Labs
+2026-04-17,Voice,xAI,Grok STT + TTS APIs,https://x.ai/news/grok-stt-and-tts-apis,,$0.10/hr batch STT; $4.20/1M chars TTS; 25+ languages
 2026-04-16,Text,Anthropic,Claude Opus 4.7,https://claude.ai;https://www.anthropic.com/news/introducing-claude-opus-4-7,,
 2026-04-16,Code,Vercel,Vercel Workflows,https://vercel.com/workflows;https://vercel.com/blog/a-new-programming-model-for-durable-execution,https://youtu.be/C9ahOihLPVA,
 2026-04-14,Security,OpenAI,GPT-5.4-Cyber,https://openai.com/index/scaling-trusted-access-for-cyber-defense/,,Defensive cybersecurity; vetted access only
+2026-04-08,Text,Meta,Muse Spark,https://www.meta.ai;https://ai.meta.com/blog/introducing-muse-spark-msl/,,Meta Superintelligence Labs; personal superintelligence
 2026-04-07,Security,Anthropic,Claude Mythos Preview,https://www.anthropic.com/glasswing;https://www.anthropic.com/news/project-glasswing,,10T params; cybersecurity; Project Glasswing; not publicly available
 2026-04-03,Security,Microsoft,Agent Governance Toolkit,https://github.com/microsoft/agent-governance-toolkit;https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/,,Open source; MIT license
 2026-04-02,Code,Anysphere,Cursor 3,https://cursor.com;https://cursor.com/blog,,Agent-first workspace
@@ -16,7 +18,9 @@ date,category,company,titles,links,video,comments
 2026-03-10,Text,xAI,Grok 4.20,https://grok.com;https://x.ai/news/grok-4-20,,Exited beta; factuality focus
 2026-03-09,Agent,Microsoft,Copilot Cowork,https://copilot.microsoft.com;https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/,,Built with Anthropic
 2026-03-05,Text,OpenAI,GPT-5.4,https://chatgpt.com;https://openai.com/index/introducing-gpt-5-4/,,1M context; computer use; thinking + pro variants
+2026-02-26,Agent,Microsoft,Copilot Tasks,https://copilot.microsoft.com;https://www.microsoft.com/en-us/microsoft-copilot/blog/2026/02/26/copilot-tasks-from-answers-to-actions/,,Research preview; autonomous background tasks
 2026-02-25,Computer,Perplexity,Perplexity Computer,https://www.perplexity.ai/hub/blog/introducing-perplexity-computer,https://youtu.be/qOsEYyQuxbU,
+2026-02-23,Code,Vercel,Chat SDK,https://github.com/vercel/chat;https://vercel.com/changelog/chat-sdk,,Open source; multi-platform chat agent SDK
 2026-02-19,Text,Google,Gemini 3.1 Pro,https://deepmind.google/models/gemini/pro/,,
 2026-02-18,Music,Google,Lyria 3,https://gemini.google.com/music,https://youtu.be/TD6FPndjhoE,Music Generation
 2026-02-05,Text,Anthropic,Claude Opus 4.6,https://www.anthropic.com/news/claude-opus-4-6,https://youtu.be/dPn3GBI8lII,
