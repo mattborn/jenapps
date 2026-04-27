@@ -8,7 +8,6 @@ date,category,company,titles,links,video,comments
 2026-04-17,Voice,xAI,Grok STT + TTS APIs,https://x.ai/news/grok-stt-and-tts-apis,,$0.10/hr batch STT; $4.20/1M chars TTS; 25+ languages
 2026-04-16,Text,Anthropic,Claude Opus 4.7,https://claude.ai;https://www.anthropic.com/news/introducing-claude-opus-4-7,,
 2026-04-16,Code,Vercel,Vercel Workflows,https://vercel.com/workflows;https://vercel.com/blog/a-new-programming-model-for-durable-execution,https://youtu.be/C9ahOihLPVA,
-2026-04-16,Text,OpenAI,GPT-Rosalind,https://openai.com/index/introducing-gpt-rosalind/,,Life sciences + drug discovery; vetted access; Amgen + Moderna
 2026-04-14,Security,OpenAI,GPT-5.4-Cyber,https://openai.com/index/scaling-trusted-access-for-cyber-defense/,,Defensive cybersecurity; vetted access only
 2026-04-09,Agent,Anthropic,Claude Managed Agents,https://claude.com/blog/claude-managed-agents,,Hosted agent platform; public beta; $0.08/session-hour
 2026-04-08,Text,Meta,Muse Spark,https://www.meta.ai;https://ai.meta.com/blog/introducing-muse-spark-msl/,,Meta Superintelligence Labs; personal superintelligence
