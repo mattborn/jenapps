@@ -1,4 +1,7 @@
 date,category,company,titles,links,video,comments
+2026-04-29,Agent,Anthropic,Claude for Creative Work,https://claude.ai;https://www.anthropic.com/news/claude-for-creative-work,,Connectors for Adobe; Autodesk; Blender; Ableton; Splice; Affinity
+2026-04-29,Code,Anysphere,Cursor SDK,https://cursor.com/docs/sdk/typescript;https://cursor.com/changelog/sdk-release,,Public beta; TypeScript; token-based pricing
+2026-04-29,Text,Google,Gemini File Generation,https://gemini.google.com;https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini/,,Docs; Sheets; Slides; PDF; DOCX; XLSX; CSV; LaTeX
 2026-04-23,Text,OpenAI,GPT-5.5,https://chatgpt.com;https://openai.com/index/introducing-gpt-5-5/,https://youtu.be/blGtYq9mL18,
 2026-04-23,Voice,xAI,Grok Voice Think Fast 1.0,https://grok.com;https://x.ai/news/grok-voice-think-fast-1,,25+ languages; $0.05/min
 2026-04-22,Agent,OpenAI,Workspace Agents,https://chatgpt.com;https://openai.com/index/introducing-workspace-agents-in-chatgpt/,,
