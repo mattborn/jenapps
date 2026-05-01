@@ -1,4 +1,7 @@
 date,category,company,titles,links,video,comments
+2026-04-30,Image,Midjourney,V8.1,https://midjourney.com;https://updates.midjourney.com/v8-1-updates/,,Now on Discord + web; sharpness improvements
+2026-04-30,Security,OpenAI,Advanced Account Security,https://chatgpt.com;https://openai.com/index/advanced-account-security/,,Passkeys; Yubico YubiKeys; no email/SMS recovery
+2026-04-30,Voice,xAI,Custom Voices and Voice Library,https://grok.com;https://x.ai/news/custom-voices-and-voice-library,,Voice cloning; voice catalog management
 2026-04-29,Agent,Anthropic,Claude for Creative Work,https://claude.ai;https://www.anthropic.com/news/claude-for-creative-work,,Connectors for Adobe; Autodesk; Blender; Ableton; Splice; Affinity
 2026-04-29,Code,Anysphere,Cursor SDK,https://cursor.com/docs/sdk/typescript;https://cursor.com/changelog/sdk-release,,Public beta; TypeScript; token-based pricing
 2026-04-29,Text,Google,Gemini File Generation,https://gemini.google.com;https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini/,,Docs; Sheets; Slides; PDF; DOCX; XLSX; CSV; LaTeX
